@@ -1,0 +1,103 @@
+.form-search{
+    margin-left: 7cm;
+}
+.form-login{
+    margin-left: 11cm;
+}
+.image-cars{
+    object-fit: cover;
+}
+/*.row{*/
+/*    column-gap: 3px;*/
+/*}*/
+
+.footer {
+    background-color: #333;
+    color: white;
+}
+
+.footer h5 {
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.footer ul {
+    padding: 0;
+}
+
+.footer ul li {
+    list-style: none;
+}
+
+.footer ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer ul li a:hover {
+    text-decoration: underline;
+}
+
+.footer a i {
+    font-size: 20px;
+    transition: color 0.3s ease;
+}
+
+.footer a i:hover {
+    color: #f00;
+}
+
+
+header {
+    margin-bottom: 30px;
+}
+
+.carousel-inner img {
+    height: 500px;
+    object-fit: cover;
+}
+
+.carousel-caption h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    animation: fadeInDown 2s ease;
+}
+
+.carousel-caption p {
+    font-size: 1.2rem;
+    animation: fadeInUp 2s ease;
+}
+
+/* Hiệu ứng chữ chuyển động */
+@keyframes fadeInDown {
+    from {
+        opacity: 0;
+        transform: translateY(-30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+}
+
